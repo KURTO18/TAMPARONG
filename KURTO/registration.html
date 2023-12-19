@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration Form</title>
+    <script src="register.js"></script>
+</head>
+<body>
+    <nav class="navbar1">
+        <ul>
+            <li><a href="home.html" class="li1">Home</a></li>
+            <li><a href="login.html" class="li3">Login</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form>
+            <label for="name">Username</label>
+            <input type="text" name="name" id="name" required placeholder="Username"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Email"><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required placeholder="Password"><br>
+            <button type="button" onclick="getUsername()">Register</button>
+        </form>
+        <p id="result"></p>
+        <div class="login">
+            Already have an account?
+            <a href="login.html">Login Now</a>
+        </div>
+    </div>
+</body>
+</html>

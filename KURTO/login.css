@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(loginandregister.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    backdrop-filter: blur(5px);
+  border-radius: 10px; border: 2px solid black;
+  box-shadow: 0 0 40px black;;
+  color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: whiteS;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+#result {
+    text-align: center;
+    color: #FF0000;
+}
+
+nav {
+    backdrop-filter: blur(5px);
+  border-radius: 10px; border: 2px solid black;
+  box-shadow: 0 0 40px black;;
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

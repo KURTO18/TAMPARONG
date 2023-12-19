@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <nav class="navbar1">
+        <ul>
+            <li><a href="home.html" class="li1">Home</a></li>
+            <li><a href="registration.html" class="li3">Registration</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form>
+            <h1>Login</h1>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Username/Email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password">
+            <span class="toggle-password" onclick="togglePasswordVisibility()">Show Password</span>
+            <br>
+            <div class="button">
+                <button type="button" onclick="login()">Login</button>
+                <p id="loginResult"></p>
+            </div>
+        </form>
+        <div class="register">
+            Don't have an account?
+            <a href="registration.html">Register Now</a>
+        </div>
+    </div>
+</body>
+</html>
